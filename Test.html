@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Task-1</title>
+</head>
+<style>
+    .login
+    {
+        justify-content: space-evenly;
+        background-color: #D6CCEF;
+        text-align: center;
+        height: 50%;
+    }
+    #email,
+    #submit
+    {
+      margin: 20px 0px 10px 25px;
+    }
+    #cap
+    {
+        margin: 10px 0px 10px 10px;
+
+    }
+    .Reg
+    {
+        justify-content: space-evenly;
+        background-color: #C1B2E6;
+        text-align: center;
+        height: 50%;
+    }
+    #n,#e
+    {
+        margin: 2px 0px 5px 20px;
+    }
+    #p
+    {
+        margin: 2px 5px 5px 0px;
+    }
+    #cp
+    {
+        margin: 2px 65px 0px 0px;
+    }
+    #cc
+    {
+        margin: 5px 165px 0px 0px;
+    }
+    #sub
+    {
+        margin: 15px 30px 0px 0px;
+    }
+    #pass
+    {
+        margin: 5px 90px 0px 0px;
+    }
+</style>
+<body>
+<div style="width: 100%;">
+    <div style="float: left;width: 50%;height: 100%;">
+    <div style="background-color: #C1B2E6;text-align: center;">Login</div>
+    <form class="login">
+          email: <input type="email" id="email" placeholder="email" ><br>
+          password: <input type="password" id="password" placeholder="password"><br>
+          Captcha: <input type="Captcha" name="Captcha" id="Cap"><br>
+          <input type="submit" value="Submit"id="submit"><br>
+      </form>
+     </div>
+    <div style="float: left;width: 50%;height: 100%">
+    <div style="background-color: #D6CCEF;text-align: center;">Registration</div>
+    <form class="Reg">
+        Name: <input type="Name" id="n"><br>
+        email: <input type="email" id="e" placeholder="email" ><br>
+        password: <input type="password" id="p" placeholder="password"><br>
+        Confirm password: <input type="password" id="cp" placeholder="password"><br>
+        Choose Country:
+       <select id="cc">
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Other</option>
+       </select><br>
+       <div id="pass">
+       Passport:
+         <input type="radio"  name="option" value="Yes">Yes
+         <input type="radio"  name="option" value="No">No<br>
+        </div>
+        <input type="checkbox" name="vehicle1" >All are correct<br>
+        <input type="submit" value="Register"id="sub"><br>
+</form>
+</div>
+</div>
+</body>
+</html>
